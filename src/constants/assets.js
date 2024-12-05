@@ -18,7 +18,6 @@ import searchLight from "../assets/icons/searchLight.png";
 import tiles from "../assets/icons/tiles.png";
 
 //Images
-import logoWhite from "../assets/images/logowhite.png";
 import splashbg from "../assets/images/splashbg.png";
 
 export default {
@@ -40,6 +39,5 @@ export default {
   list,
   tiles,
 
-  logoWhite,
   splashbg,
 };
