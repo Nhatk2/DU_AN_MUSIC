@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Top Albums",
-    "slug": "topalbums",
+    "name": "Music_App",
+    "slug": "Music_App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

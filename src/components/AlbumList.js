@@ -15,7 +15,8 @@ const AlbumList = () => {
       renderItem={({ item }) => <AlbumItem item={item} />}
       initialNumToRender={6}
       showsVerticalScrollIndicator={false}
-      numColumns={toggleView}
+      horizontal={true}
+      // numColumns={toggleView}
       key={toggleView}
       ListEmptyComponent={<AlbumEmptyItem />}
       ListFooterComponent={<Footer />}

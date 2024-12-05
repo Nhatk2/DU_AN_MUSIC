@@ -15,7 +15,7 @@ import { useNavigation } from "@react-navigation/native";
 import { assets, COLORS, SHADOW } from "../constants";
 import { BottomMenu, Button, Icon } from "../components";
 import { Platform } from 'react-native';
-
+           
 const Details = ({ route }) => {
   const navigation = useNavigation();
   const item = route.params;
@@ -127,6 +127,7 @@ const Details = ({ route }) => {
             WebBrowser.openBrowserAsync(item.link.attributes.href)
           }
         />
+        
       </BottomMenu>
     </SafeAreaView>
   );

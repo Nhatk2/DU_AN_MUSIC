@@ -10,14 +10,15 @@ const Header = ({ title }) => {
 
   return (
     <View style={styles.headerContainer}>
+ 
       <View
         style={[
           title ? { flexDirection: "row-reverse" } : { flexDirection: "row" },
           styles.logoContainer,
         ]}
       >
-        <Image style={styles.headerLogo} source={assets.logoWhite} />
-
+        
+        
         {title ? (
           <Text style={styles.title}>{title}</Text>
         ) : (
@@ -65,19 +66,20 @@ const styles = StyleSheet.create({
   },
 
   inputContainer: {
-    flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    padding: 2,
-    marginHorizontal: 20,
-    borderRadius: 30,
+    backgroundColor: "#4a00e0", // Nền xanh gradient
+    borderRadius: 50, // Bo tròn
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+    borderColor: "#fff",
     borderWidth: 1,
-    borderColor: COLORS.white,
   },
 
   input: {
-    color: COLORS.white,
-    fontSize: 14,
+    flex: 1,
+    fontSize: 16,
+    color: "#fff",
   },
 
   inputIcon: {
